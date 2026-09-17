@@ -44,7 +44,7 @@
 
 [SSH、Python 与 YOLOv8 安装命令](docs/raspberry-pi-yolov8-setup.md) · [完整 TXT](docs/搭建yolov8环境.txt)
 
-## 从哪里开始
+## 开始制作
 
 1. 按 [制作教程](docs/build-guide.md) 制作框架与机构，完成单模块接线和标定。
 2. 在 Keil 中打开 `firmware/stm32/Project.uvprojx`，核对开发板时钟与引脚；已知修正点见教程。
@@ -58,14 +58,6 @@
 5. 通过界面进入识别页完成串口解锁，确认回零与上电等待结束，再进行空载及投料测试。
 
 脚本会切换到正确的应用目录，不需要修改应用中的 QML、模型及图片相对路径。依赖清单尚不是经过实机验证的版本锁定文件。
-
-## 本地检查
-
-```sh
-python3 scripts/check_repository.py
-```
-
-检查教程图片、Markdown 相对链接、Python 语法和 Keil 工程文件引用，不连接硬件、不加载权重、不改写标签。
 
 ## 参与与致谢
 
