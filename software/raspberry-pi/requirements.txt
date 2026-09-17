@@ -1,0 +1,5 @@
+# Imports required by the application. A verified Raspberry Pi lockfile is not yet available.
+ultralytics
+opencv-python
+pyserial
+PySide6

@@ -1,0 +1,13 @@
+{
+  "source_archives": {
+    "垃圾分类STM32_机械臂(3.19).rar": "963ea637505998007e2b9d30c6378e93bd81a15bff65752c40d3c1b58b220327",
+    "智能垃圾桶python代码(3.19).rar": "6701bceab2a7bd5709e9a7582dc3fa2dd82b5635df1955cf2625456e423965b5"
+  },
+  "weights": {
+    "path": "software/raspberry-pi/yolo/best.pt",
+    "size": 22536814,
+    "sha256": "0e9ade16c99730c9233939a2b89183e47f08c946b4a3c8519184833ff6c6b524"
+  },
+  "source_file_count": 44563,
+  "source_bytes": 47236190771
+}

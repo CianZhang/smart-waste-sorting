@@ -1,0 +1,4 @@
+# Tools only; pin to versions verified in your own training environment.
+numpy
+ultralytics
+opencv-python

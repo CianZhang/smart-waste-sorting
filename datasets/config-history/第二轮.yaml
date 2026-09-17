@@ -1,0 +1,6 @@
+# 历史类别顺序快照；<DATASET_ROOT> 必须替换后才能使用。
+train: <DATASET_ROOT>/images/train
+val: <DATASET_ROOT>/images/val
+
+nc: 4
+names: [ 'others', 'harmful', 'kitchen', 'recycle' ]

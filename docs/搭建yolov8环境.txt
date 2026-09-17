@@ -1,0 +1,88 @@
+树莓派使用ubuntu24.04.1 LTS桌面版本
+
+现在来vscode远程连接树莓派，执行以下命令
+
+sudo apt update
+
+sudo apt install openssh-server
+
+sudo systemctl enable ssh
+
+sudo systemctl start ssh
+
+sudo systemctl status ssh
+
+看见active (running)表示ssh启动
+
+hostname -I
+
+查看ip地址
+如果树莓派之前连接过电脑，现在树莓派换了新的系统，需要在你的电脑命令提示符上执行以下命令
+
+ssh-keygen -R <树莓派的IP地址>
+
+再次连接ssh，应该就可以连接成功了
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+现在来安装python==3.10.16环境
+
+sudo apt update
+
+sudo apt upgrade -y
+
+sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev \
+                    libreadline-dev libsqlite3-dev wget curl llvm \
+                    libncurses5-dev libncursesw5-dev libffi-dev \
+                    liblzma-dev python3-openssl git
+
+cd ~
+
+wget https://www.python.org/ftp/python/3.10.16/Python-3.10.16.tgz
+
+tar -xvzf Python-3.10.16.tgz
+
+cd Python-3.10.16
+
+./configure --enable-optimizations
+
+make -j 4 
+
+sudo make altinstall
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.10 1
+
+那么现在使用
+python3 --version
+命令的结果应该就是
+Python 3.10.16
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+sudo apt-get update
+
+sudo apt-get upgrade
+
+sudo apt install python3-pip
+
+sudo pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cpu -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple --trusted-host=https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+
+sudo pip install ultralytics -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple --trusted-host=https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+
+sudo pip install numpy==1.23.5
+
+python3 -m pip install numpy==1.23.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+

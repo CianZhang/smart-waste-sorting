@@ -1,0 +1,62 @@
+# Original working files, system images, installers and private setup notes
+/.local-archive/
+
+# Operating system / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local datasets, outputs and model/media payloads
+/datasets/local/
+/models/local/
+/outputs/
+/runs/
+/test_result/
+/software/raspberry-pi/yolo/pics/*
+!/software/raspberry-pi/yolo/pics/.gitkeep
+/software/raspberry-pi/yolo/best.pt
+/software/raspberry-pi/qml/1.mp4
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Firmware build output and personal Keil state
+**/Objects/
+**/Listings/
+**/DebugConfig/
+*.uvguix.*
+*.uvoptx
+*.o
+*.obj
+*.axf
+*.hex
+*.map
+*.lnp
+*.d
+*.dep
+*.crf
+*.lst
+
+# CAD temporary files; retain original model names and assembly layout
+~$*
+*.SLDERR
+*.slderr

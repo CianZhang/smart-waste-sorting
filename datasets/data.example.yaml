@@ -1,0 +1,16 @@
+# Template only. Replace the absolute path and verify the labels before training.
+path: /absolute/path/to/dataset
+train: images/train
+val: images/val
+# Based on tools/dataset/legacy/classes.txt; not asserted to match every historical weight.
+names:
+  0: drug
+  1: cup
+  2: metal
+  3: battery
+  4: cobblestone
+  5: carrot
+  6: daikon
+  7: brick
+  8: plastic
+  9: potato
