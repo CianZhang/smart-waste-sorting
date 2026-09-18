@@ -1,0 +1,80 @@
+{
+  "assets": [
+    {
+      "name": "training-data-and-history.zip",
+      "bytes": 1483668766,
+      "sha256": "997da5147064521252218d699460b199d38c406da34e46b902b1b37af314e334"
+    },
+    {
+      "name": "stepper-motor-vendor-resources.zip",
+      "bytes": 458771124,
+      "sha256": "acd72e08e78a4ab944d3338a70e638cedfa7a3edcf639f516c17e0dc9c605391"
+    },
+    {
+      "name": "legacy-projects-and-provincial-originals.zip",
+      "bytes": 202934221,
+      "sha256": "5852382515f9eba035e844eb413bc98937c4982cec6d44e281ed4c4e7a9704d5"
+    },
+    {
+      "name": "1.mp4",
+      "bytes": 158398867,
+      "sha256": "abd3a3bae4493d2dd0e0d9b7840be30e9eba04760027abc91b60716c4defe0d9"
+    },
+    {
+      "name": "yolov8.zip.part001",
+      "bytes": 1500000000,
+      "sha256": "02c4f757b04e0fa79c213090418af3bd76b2c52ae7fe92c8e4f78a004bac0de5"
+    },
+    {
+      "name": "yolov8.zip.part002",
+      "bytes": 1500000000,
+      "sha256": "25b22db62767b38419f4a10f9d33855b3fb35b3f19a81cbd08a4206f589519e7"
+    },
+    {
+      "name": "yolov8.zip.part003",
+      "bytes": 978804374,
+      "sha256": "b1f67c00bf3c6dc53fa0d4d07688c9653f8ca40912dccf33bf989c19cbbbc2c2"
+    }
+  ],
+  "packages": [
+    {
+      "name": "training-data-and-history.zip",
+      "source_paths": [
+        "代码/第一次数据",
+        "代码/第二次数据",
+        "代码/第三次数据",
+        "代码/第四次数据",
+        "代码/模型训练",
+        "代码/树莓派/yolov8/ultralytics-main"
+      ],
+      "file_count": 43544
+    },
+    {
+      "name": "stepper-motor-vendor-resources.zip",
+      "source_paths": [
+        "张大头步进电机资料"
+      ],
+      "file_count": 389
+    },
+    {
+      "name": "legacy-projects-and-provincial-originals.zip",
+      "source_paths": [
+        "代码/垃圾分类STM32",
+        "代码/省赛代码"
+      ],
+      "file_count": 316
+    }
+  ],
+  "split_files": [
+    {
+      "original_name": "yolov8.zip",
+      "bytes": 3978804374,
+      "sha256": "67cd5b0eae3dfe495bd9983304eb3f1da0dc6049562c12e1c48cc26f418390c0",
+      "parts": [
+        "yolov8.zip.part001",
+        "yolov8.zip.part002",
+        "yolov8.zip.part003"
+      ]
+    }
+  ]
+}

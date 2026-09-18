@@ -60,3 +60,10 @@ venv/
 ~$*
 *.SLDERR
 *.slderr
+
+# Large downloadable release bundles (kept visibly on this computer)
+/release-assets/*
+!/release-assets/README.md
+!/release-assets/manifest.json
+!/release-assets/SHA256SUMS.txt
+!/software/raspberry-pi/yolo/best.pt

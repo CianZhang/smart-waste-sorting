@@ -29,9 +29,9 @@ sh software/raspberry-pi/run.sh
 
 ## 模型和视频
 
-本机整理后保留了部署模型和展示视频，位置保持不变。它们没有纳入 Git 内容，下载纯源码的人需要自行准备。
+部署模型 `yolo/best.pt` 已纳入 Git 仓库。展示视频请从 [GitHub Release](https://github.com/CianZhang/smart-waste-sorting/releases/tag/resources-v1) 下载 `1.mp4`，放到本目录的 `qml/1.mp4`。
 
-模型来源与校验值见 [模型说明](../../models/README.md)。展示页使用 `qml/1.mp4`，需要提供有权发布的视频；不使用展示页时可相应调整界面。没有视频不代表视觉识别代码或模型缺失。
+模型来源与校验值见 [模型说明](../../models/README.md)。展示页使用 `qml/1.mp4`，下载后保持文件名和位置一致；不使用展示页时可相应调整界面。没有视频不代表视觉识别代码或模型缺失。
 
 省赛原始压缩包及历史结果图位于本地归档，具体位置见 [目录迁移说明](../../docs/repository-layout.md)。
 

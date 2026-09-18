@@ -7,3 +7,7 @@ Woodcore 参考包位于本地 `.local-archive/original/建模/Woodcore XY-CORE 
 STM32 参数参考 [ST 官方数据手册](https://www.st.com/resource/en/datasheet/stm32f103rc.pdf)。
 
 厂商安装包、固件工具和完整镜像保留在本地归档。
+
+## 补充资源下载
+
+训练图片、标签、历史权重与结果、电机厂商完整资料、旧版工程及编译产物、省赛原始压缩包、展示视频和 `yolov8.zip` 已整理为 [GitHub Release 附件](https://github.com/CianZhang/smart-waste-sorting/releases/tag/resources-v1)。分类、还原方式与校验值见 [资源下载说明](../release-assets/README.md)。本地附件位于根目录可见的 `release-assets/` 文件夹，原始归档继续保留。部署权重 `software/raspberry-pi/yolo/best.pt` 已直接纳入源码仓库。

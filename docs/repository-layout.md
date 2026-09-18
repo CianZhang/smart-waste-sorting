@@ -38,6 +38,10 @@
 
 ## 提交范围
 
-`.gitignore` 排除本地归档、模型、展示视频、推理图片、构建缓存和个人环境文件。权重与视频留在应用原位置，源码克隆时需要另外准备。
+`.gitignore` 排除本地归档、模型、展示视频、推理图片、构建缓存和个人环境文件。部署权重纳入源码仓库，展示视频通过 Release 下载。
 
 公开仓库只包含上述整理后的项目内容；本地原始归档不随 Git 提交上传。
+
+## 补充资源下载
+
+训练图片、标签、历史权重与结果、电机厂商完整资料、旧版工程及编译产物、省赛原始压缩包、展示视频和 `yolov8.zip` 已整理为 [GitHub Release 附件](https://github.com/CianZhang/smart-waste-sorting/releases/tag/resources-v1)。分类、还原方式与校验值见 [资源下载说明](../release-assets/README.md)。本地附件位于根目录可见的 `release-assets/` 文件夹，原始归档继续保留。部署权重 `software/raspberry-pi/yolo/best.pt` 已直接纳入源码仓库。
